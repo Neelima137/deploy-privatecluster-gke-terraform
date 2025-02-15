@@ -9,7 +9,7 @@ variable "location" {
 }
 variable "project" {
   type    = string
-  default = "cts07-devadin"
+  default = <<project-id>>
 
 }
 variable "machine_type" {
