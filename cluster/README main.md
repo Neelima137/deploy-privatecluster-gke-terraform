@@ -167,7 +167,7 @@ resource "google_project_iam_member" "permissions" {
 }
 ```
 This IAM binding grants a service account (terraform-demo@cts07-devadin.iam.gserviceaccount.com) the ServiceAccountTokenCreator role, enabling the service account to use IAP for SSH access.
-<img src="blob:chrome-untrusted://media-app/6b8c6eab-8bb3-430e-955b-860bbc1efad0" alt="Screenshot 2025-02-15 7.06.28 PM.png"/>![image](https://github.com/user-attachments/assets/e92a013a-e985-4e65-8e9a-c757380f8384)
+![image](https://github.com/user-attachments/assets/e92a013a-e985-4e65-8e9a-c757380f8384)
 
 
 11. Cloud Router Resource
