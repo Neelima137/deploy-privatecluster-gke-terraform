@@ -17,19 +17,27 @@ $ touch main.tf
 $ touch variables.tf
 ```
 Step3: 
-Run terraform init
+Run
+terraform init
+
 terraform fmt
+
 terraform validate
+
 terraform plan
+
 terraform apply
 
 Step4: lets Connect your private cluster
+
 Download the IAP desktop using the following link : https://github.com/GoogleCloudPlatform/iap-desktop/wiki/Installation
-after instalation , sign in to your gcp account 
-select the jump-host vm , Right-click on jump-host and connect it. you should be in.
+
+after instalation , sign in to your gcp account  and select the jump-host vm , Right-click on jump-host and connect it. you should be in.
 
 Step5: SSH into the Jump Host
+
 SSH into the VM test-1-jump-host using the internal IP 10.0.0.7:
+
 Step6:  Authenticate with Google Cloud
 ```
 gcloud auth login
@@ -79,6 +87,7 @@ Wait a moment for the service to initialize.
 
 Step13:
 Access the Application
+
 The external IP of the load balancer will eventually appear in the EXTERNAL-IP column under the services. You can access the service using the external IP on port 80.
 
 Alternatively, go to the Google Cloud Console, navigate to the Services section, and click on the endpoint to be redirected to the welcome page (e.g., NGINX default page).
