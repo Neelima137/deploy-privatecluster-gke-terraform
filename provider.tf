@@ -8,7 +8,7 @@ terraform {
 }
 provider "google" {
   region  = "us-central1"
-  project = "cts07-devadin"
+  project = <<project-id>>
 
 }
 
