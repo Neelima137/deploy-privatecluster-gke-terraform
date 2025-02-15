@@ -166,7 +166,7 @@ resource "google_project_iam_member" "permissions" {
   member  = "serviceAccount:terraform-demo@<<project-id>>.iam.gserviceaccount.com"
 }
 ```
-This IAM binding grants a service account (terraform-demo@cts07-devadin.iam.gserviceaccount.com) the ServiceAccountTokenCreator role, enabling the service account to use IAP for SSH access.
+This IAM binding grants a service account (terraform-demo@<<project-id>>.iam.gserviceaccount.com) the ServiceAccountTokenCreator role, enabling the service account to use IAP for SSH access.
 ![image](https://github.com/user-attachments/assets/e92a013a-e985-4e65-8e9a-c757380f8384)
 
 
