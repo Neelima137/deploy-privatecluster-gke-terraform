@@ -50,8 +50,7 @@ Step8: If you encounter an error, install the GKE authentication plugin:
 ```
 sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
 ```
-![image](https://github.com/user-attachments/assets/a0bc003e-2a14-4385-89b7-6ce9520edbf2)
-
+![image](https://github.com/user-attachments/assets/d38f37d5-53af-4d86-a0f6-574dc846cf69)
 
 Step9: Check the nodes in the cluster to ensure you're properly connected:
 ```
@@ -76,18 +75,17 @@ List the services to check for the load balancer's external IP:
 kubectl get svc
 ```
 Wait a moment for the service to initialize.
-
-![image](https://github.com/user-attachments/assets/96533783-ff5b-452d-9a57-91f79b10fbb8)
-![image](https://github.com/user-attachments/assets/7d2736f6-09b2-4cea-9066-162d956b6be4)
-
-
+![image](https://github.com/user-attachments/assets/a0bc003e-2a14-4385-89b7-6ce9520edbf2) 
 
 Step13:
 Access the Application
 The external IP of the load balancer will eventually appear in the EXTERNAL-IP column under the services. You can access the service using the external IP on port 80.
 
 Alternatively, go to the Google Cloud Console, navigate to the Services section, and click on the endpoint to be redirected to the welcome page (e.g., NGINX default page).
-![image](https://github.com/user-attachments/assets/d38f37d5-53af-4d86-a0f6-574dc846cf69)
+
+![image](https://github.com/user-attachments/assets/7d2736f6-09b2-4cea-9066-162d956b6be4)
+
+![image](https://github.com/user-attachments/assets/96533783-ff5b-452d-9a57-91f79b10fbb8)
 
 
 
