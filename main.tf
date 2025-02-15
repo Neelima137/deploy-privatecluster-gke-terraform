@@ -112,7 +112,7 @@ resource "google_compute_firewall" "rules" {
 resource "google_project_iam_member" "permissions" {
   project = var.project
   role    = "roles/iam.serviceAccountTokenCreator"
-  member  = "serviceAccount:terraform-demo@cts07-devadin.iam.gserviceaccount.com"
+  member  = "serviceAccount:terraform-demo@<<project-id>>.iam.gserviceaccount.com"
 }
 
 #create cloud router for NAT gateway
