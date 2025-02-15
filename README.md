@@ -50,7 +50,8 @@ Step8: If you encounter an error, install the GKE authentication plugin:
 ```
 sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
 ```
-<img src="blob:chrome-untrusted://media-app/e3429ba4-2c1b-4f11-b9be-635018c7f903" alt="Screenshot 2025-02-15 4.50.40 PM.png"/>
+![image](https://github.com/user-attachments/assets/a0bc003e-2a14-4385-89b7-6ce9520edbf2)
+
 
 Step9: Check the nodes in the cluster to ensure you're properly connected:
 ```
@@ -88,8 +89,6 @@ The external IP of the load balancer will eventually appear in the EXTERNAL-IP c
 Alternatively, go to the Google Cloud Console, navigate to the Services section, and click on the endpoint to be redirected to the welcome page (e.g., NGINX default page).
 ![image](https://github.com/user-attachments/assets/d38f37d5-53af-4d86-a0f6-574dc846cf69)
 
-
-![image](https://github.com/user-attachments/assets/a0bc003e-2a14-4385-89b7-6ce9520edbf2)
 
 
 
